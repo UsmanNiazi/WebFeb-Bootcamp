@@ -1,0 +1,93 @@
+* {}
+
+body {
+	font-family: var(--opensans);
+	overflow-x: hidden!important;
+	max-width: 100vw;
+}
+
+/* /Some linked Css*/
+.bread-cat button{
+	border-radius: 0px;
+	border-bottom: 2px solid white;
+}
+
+.bread-cat button:hover{
+	border-bottom: 2px solid black;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+.drop-con{
+position: absolute;
+width: 150px;
+display: none;
+z-index: 2;
+background: white;
+}
+
+.drop-con a
+{	display: block;
+	color: #577688!important;
+}
+.banner-element img{
+	outline: none!important;
+}
+.banner-element{
+	outline: none!important;
+}
+.main-banner{
+	margin:-30px;
+}
+.main-banner{
+	position: relative;
+}
+.banner-intro{
+	position: absolute!important;
+	min-width: 450px;
+}
+.banner-intro h2{
+	line-height: 1.35;
+}
+.banner-img img{
+	min-height: 280px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width:576px){
+	.banner-intro{
+	min-width: 100vw;
+}
+	.banner-img img{
+		min-height: 67vw;
+		object-position:center;
+		transform: scale(1.02);
+	}
+	.banner-intro{
+		position: static!important;
+	}
+	
+}
+@media only screen and (max-width:767px){
+	
+	
+	 img.zoomcenter{
+		object-fit: cover;	
+		 object-position: 60%;
+	}
+	img.zoomright{
+		object-fit: cover;	
+		 object-position: 100%;
+	}
+	.banner-intro-content h2{
+		font-size: 22px;
+	}
+	.banner-intro-content p{
+		font-size: 16px;
+	}
+	
+}
+.nounderline {
+  text-decoration: none !important
+}

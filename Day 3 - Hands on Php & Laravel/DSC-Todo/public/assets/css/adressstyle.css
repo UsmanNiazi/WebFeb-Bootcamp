@@ -1,0 +1,126 @@
+/*shipping*/
+.breadcrumb
+{
+   background: none; 
+    font-family: 400 14px Open Sans,sans-serif;
+    color: #003979;
+    padding: 0;
+}
+
+.breadcrumb-item a
+{
+    color: #003979;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.breadcrumb .active
+{
+    font-weight: 600;
+    color: #003979;
+    font-size: 14px;
+    
+}
+nav .mobile-back 
+{
+    text-decoration: none;
+    color: #003979;
+    font-weight: 600;
+    font-size: 14px;
+    display: none;
+    
+}
+nav .mobile-back:hover
+{
+    text-decoration: none;
+    color: #000000;
+}
+h2.main-heading
+{
+    font-size: 28px;
+    font-weight: 400;
+}
+h3.sub-heading
+{
+    
+    font-size: 24px;
+    font-weight: 600;
+}
+.p-about
+{
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn.btn-outline-primary
+{
+    border: 3px solid #003953;
+    transition: 0.3s ease;
+    color: #003953;
+    font-weight: 700;
+    border-radius: 4px;
+    
+    padding: 8px 48px;
+}
+.btn.btn-outline-primary:hover
+{
+    border: 3px solid #0076BD;
+    background: #0076BD;
+    color: #ffffff;
+}
+div.about-address
+{
+    border: 2px solid #DDDDDD;
+    width: 330px;
+    height: 200px;
+    margin: 8px;
+    padding: 16px;
+}
+.about-address p
+{
+    font-weight: 300;
+    font-size: 14px;
+}
+.address-box
+{
+    text-decoration: none;
+    color: #003953;
+    font-weight: 600;
+    border-bottom: 2px solid;
+}
+div.edit-sec
+{
+    position: absolute;
+    bottom: 20px;
+}
+@media(max-width:460px)
+{
+    
+.breadcrumb
+    {
+        display: none;
+    }
+nav .mobile-back 
+    {
+        display: block;
+    }
+div.about-address
+    {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #DDDDDD;
+    }
+    div.form-group.row
+    {
+        width: 400px;
+    }
+    .form-width
+{
+    width: 280px;
+}
+    
+}
+/*shippingaddress*/
+.form-width
+{
+    width: 480px;
+}

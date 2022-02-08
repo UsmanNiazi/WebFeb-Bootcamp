@@ -1,0 +1,99 @@
+.zapposImg
+{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 44px;
+    width: 121px;
+}
+hr
+{
+    margin: 0;
+}
+.main-div
+{
+    width: 348px;
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+.main-div p.heading
+{
+    font-size: 28px;
+}
+.sub-div
+{
+    border: 1px solid #979797;
+    width: 100%;
+    border-radius: 3px;
+}
+.sub-div .row
+{
+    padding: 14px 18px;
+}
+.btn-left
+{
+    display: block;
+    margin-left: auto;
+    
+}
+.btn-left button
+{
+    padding: 1px 6px;
+    font-size: 13px;
+    font-family: roboto;
+    height: 27px;
+    width: 54px;
+    font-weight: 600;
+    color: #003953;
+    border: 2px solid #003953;
+    background: none;
+}
+.col-auto h4,p 
+{
+    font-family: roboto;
+    font-size: 13px;
+    
+}
+.col-auto h4
+{
+    margin-bottom: 0px;
+}
+button.btn-submit
+{
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 10px;
+     background: #003953;
+}
+/*
+Change NAme
+*/
+.btn-done
+{
+    border: none;
+    margin-top: 0;
+    margin-left: 14px;
+    background: #003953;
+    font-weight: 600;
+    height: 29px;
+    font-size: 13px;
+    width: 107px;
+    padding: 4px 7px;
+    
+}
+.input-name
+{
+    margin-top: 2px;
+    padding: 3px 7px;
+    height: 31px;
+    width: 186px;
+    border: solid 2px #DDDDDD;
+    border-radius: 3px;
+    
+}
+.recaptcha p
+{
+    font-size: 17px;
+}
